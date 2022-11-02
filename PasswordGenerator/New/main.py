@@ -2,7 +2,7 @@
 import PasswordGenerator
 import CSVCode
 
-
+#Code
 def WelcomeMenu():
   #Choose an option
   WelcomeOption = input("Welcome to Matthew's Password Generator\n\nPlease select one of the following options:\n\n1: Generate Password\n2: Account Details and Random Password\n3: Search for PasswordID\n4: Exit\n\n>")
