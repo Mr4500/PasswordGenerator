@@ -24,7 +24,7 @@ def GeneratePassword():
                          "#", ":", "@", "~", ".", "/", "<", ">", "?", "|")
     SC = random.choice(SpecialCharacters)
     Password = (f"{RN1}{RW1.capitalize()}{RW2.capitalize()}{RN2}{SC}")
-    #print("\nYour New password is:", Password)
+    print("\nYour New password is:", Password)
 
 def PasswordIDGenerator():
     PasswordID = random.randint(100000, 999999)
